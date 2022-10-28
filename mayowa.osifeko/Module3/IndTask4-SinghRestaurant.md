@@ -1,16 +1,16 @@
 # Overview
 Singh Restaurant is looking for an online home delivery service for her restaurant. John is the Business Analyst from the consulting firm that is hired to set this up. I have helped John to gather requirements for release prioritization as listed and described below.
-## **Epic/Features**
-1.	User profile **(Must have)**
-2.	Search **(Should have)**
-3.	Cart **(Must have)**
-4.	Order Scheduling **(Could have)**
-5.	Convenient and secured payment gateways/methods **(Must have)**
-6.	Access to delivery person’s contact **(Should have)**
-7.	Order tracking **(Should have)**
-8.	Order history **(Should have)**
-9.	Order/delivery person rating **(Must have)**
-10.	Push notifications **(Could have)**
+
+| Epic      | Register      | Order         | Payment        | Tracking                     | Support           |
+|-----------|---------------|---------------|----------------|------------------------------|-------------------|
+| Release 1 | Create user   | Create order  | Cash           |                              |                   |
+|           | User sign in  | Cart order    | Online payment | Get delivery person contact  |                   |
+|           | User sign out |               |                |                              |                   |
+|           |               |               |                |                              |                   |
+| Release 2 |               | Order history | Bank transfer  | Push notification            | Rate order        |
+|           |               | Search order  |                | Get order location real-time | Chat with support |
+|           |               |               |                |                              |                   |
+
 ## **User stories**
 1.	As a user, I want to be able to register and create a user profile so that I can have access to request home delivery.
 2.	As a user, I want to be able to search for whatever I want on the app so that I don’t spend hours browsing through the restaurant’s entire catalog.
